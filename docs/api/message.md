@@ -21,6 +21,7 @@ icon: comment
 | ----------- | ----------------------------- | ---- | ---------------- |
 | user_id     | int64                         | 是   | QQ 号            |
 | message     | `string` / `object` / `array` | 是   | 消息内容         |
+| group_id    | int64                         | 否   | 发送临时会话消息时才需要，临时会话时需要共同群聊 |
 | auto_escape | bool                          | 否   | 是否解析 CQ 码（true为不解析）。 |
 | recall_duration     | int64                         | 否   | 自动撤回时间间隔（毫秒）            |
 
